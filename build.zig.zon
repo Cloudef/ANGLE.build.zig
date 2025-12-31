@@ -23,18 +23,22 @@
         .@"vulkan-headers" = .{
             .url = "git+https://github.com/KhronosGroup/Vulkan-Headers.git#2fa203425eb4af9dfc6b03f97ef72b0b5bcb8350",
             .hash = "N-V-__8AADIiFAJfrWhQBPEi9LPInaZNnXV15Ca887-ty4M1",
+            .lazy = true,
         },
         .@"spirv-headers" = .{
             .url = "git+https://github.com/KhronosGroup/SPIRV-Headers.git#0a7f626a6ae86284a413d105b47a6fb413bf6c92",
             .hash = "N-V-__8AAGOhPABkbhEc-SenlpOzOI4ppi0CDXVSteii5ywV",
+            .lazy = true,
         },
         .@"spirv-tools" = .{
             .url = "git+https://github.com/KhronosGroup/SPIRV-Tools.git#91ac969ed599bfd0697a5b88cfae550318a04392",
             .hash = "N-V-__8AAOpeggGHySq4R9x8lemWb59nS12B2u9GbeMnQyIm",
+            .lazy = true,
         },
         .@"vulkan-memory-allocator" = .{
             .url = "git+https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git#e722e57c891a8fbe3cc73ca56c19dd76be242759",
             .hash = "N-V-__8AABf8PgCnYVmvDdgKCaLJt0BqIjI7IkJDQJ-nFpnD",
+            .lazy = true,
         },
     },
     .paths = .{

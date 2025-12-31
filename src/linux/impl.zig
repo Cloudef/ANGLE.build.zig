@@ -24,7 +24,6 @@ fn SoWrapper(FNS: type, paths: []const [:0]const u8) type {
     };
 }
 
-
 const X11 = SoWrapper(struct {
     XOpenDisplay: *const fn ([*:0]const u8) ?*anyopaque,
     XCloseDisplay: *const fn (?*anyopaque) c_int,
